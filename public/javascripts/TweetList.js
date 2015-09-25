@@ -8,8 +8,8 @@ app.controller('TweetList', function($scope, $resource, $timeout) {
     function init () {
 
       // set a default username value
-      $scope.username = "twitterdev";
-      
+      //$scope.username = "twitterdev";
+
       // empty tweet model
       $scope.tweetsResult = [];
 
@@ -37,7 +37,7 @@ app.controller('TweetList', function($scope, $resource, $timeout) {
 
       var params = {
         action: 'user_timeline',
-        user: $scope.username
+        user: 'howslinera'
       };
 
       if ($scope.maxId) {

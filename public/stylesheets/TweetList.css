@@ -1,8 +1,8 @@
 body {
   padding: 50px;
- 	background: -moz-linear-gradient(top, #4099FF, #062242);
- 	background: -ms-linear-gradient(top, #4099FF, #062242);
- 	background: -webkit-linear-gradient(top, #999, #333);
+ 	background: -moz-linear-gradient(top, #551A8B, #875CC4);
+ 	background: -ms-linear-gradient(top, #551A8B, #875CC4);
+ 	background: -webkit-linear-gradient(top, #551A8B, #875CC4);
   background-attachment: fixed;
   color: #333;
 }
@@ -16,12 +16,30 @@ a {
 }
 
 h1 {
-	font-size: 24px;
+  font-family: 'Amaranth', sans-serif;
+	font-size: 48px;
 	margin: 0 0 15px 0;
 	line-height: 40px;
 	color: #FFF;
 	font-weight: normal;
 }
+
+h3 {
+  font-size: 16px;
+  color: #F3F3F3;
+}
+
+p {
+  color: #F3F3F3;
+}
+
+/*p.tweet{
+
+}
+
+.tweeters{
+  background-color: #875CC4;
+}*/
 
 #twitter-logo {
 	display: inline-block;
@@ -34,6 +52,7 @@ h1 {
 
 .tweet-item {
 	margin-bottom: 10px;
+  list-style-type: none;
 }
 
 .tweet-details {
