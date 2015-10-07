@@ -27,6 +27,7 @@ node_modules
 
 # Config files
 # config.js
+.env
 
 #DS_Store files
 .DS_Store

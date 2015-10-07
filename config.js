@@ -1,10 +1,10 @@
 module.exports = {
 
 	twitter: {
-  	consumer_key: 'hJ75vlDtueJeRauUXu5ow',
-		consumer_secret: '0lh6Lejgp8C9h2ZG2TvsAn2YkiRVESMIMHFefI3sE',
-		access_token: '14255934-et8BZO1mIvU0IrCfFUMX3dOAe5POOvoAyMpOlXEZg',
-		access_token_secret: 'omsato3lgDz2zMMD2zHTiqkSwyPw3Llp04jwX26wSr4JH'
+  	consumer_key: process.env.CONSUMER_KEY,
+		consumer_secret: process.env.CONSUMER_SECRET,
+		access_token: process.env.ACCESS_TOKEN,
+		access_token_secret: process.env.ACCESS_TOKEN_SECRET
 	}
 
 };
