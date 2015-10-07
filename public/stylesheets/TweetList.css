@@ -83,3 +83,9 @@ p {
 	height: 32px;
 	float: right;
 }
+
+@media screen and (max-width: 768){
+  #tweet-list {
+    position: relative;
+  }
+}
